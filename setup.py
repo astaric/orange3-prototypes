@@ -34,7 +34,9 @@ if __name__ == '__main__':
         },
         install_requires=[
             'Orange',
+            'openml',
         ],
+        dependency_links=["https://github.com/openml/openml-python/archive/0.2.1.zip#egg=openml-0.2.1"],
         entry_points=ENTRY_POINTS,
         namespace_packages=['orangecontrib'],
         include_package_data=True,
